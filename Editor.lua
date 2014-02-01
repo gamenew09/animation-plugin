@@ -3081,9 +3081,9 @@ function onKeyDown(key)
 		keysDown["alt"] = true
 	elseif  ( string.byte(key) == 118 ) then
 		keysDown["v"] = true
-		if (isKeyDown("ctrl")) then
+	--	if (isKeyDown("ctrl")) then
 			pastePoses()
-		end
+	--	end
 	elseif  ( string.byte(key) == 114 ) then
 		keysDown["r"] = true
 		toggleHandles()
