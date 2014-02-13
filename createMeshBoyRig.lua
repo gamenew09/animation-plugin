@@ -172,6 +172,9 @@ button.Click:connect(function()
 	Head.Parent = parent
 	Head.BottomSurface = "Smooth"
 	Head.TopSurface = "Smooth"
+	
+	Face = Instance.new("Decal", Head)
+	Face.Texture = "rbxasset://textures/face.png"
 
 	NCA = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
 	NCB = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
